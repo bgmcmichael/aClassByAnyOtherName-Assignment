@@ -1,7 +1,7 @@
 /**
  * Created by fenji on 8/30/2016.
  */
-public class EnglishGreeting implements HelloWorld {
+public class EnglishGreeting {
     String name = "world";
     public void greet() {
         greetSomeone("world");

@@ -3,9 +3,9 @@ public class HelloWorldAnonymousClasses {
 
 
     public void sayHello() {
-        HelloWorld englishGreeting = new EnglishGreeting();
-        HelloWorld frenchGreeting = new FrenchGreeting();
-        HelloWorld spanishGreeting = new SpanishGreeting();
+        EnglishGreeting englishGreeting = new EnglishGreeting();
+        FrenchGreeting frenchGreeting = new FrenchGreeting();
+        SpanishGreeting spanishGreeting = new SpanishGreeting();
 
         englishGreeting.greet();
         frenchGreeting.greetSomeone("Fred");

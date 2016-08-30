@@ -1,4 +1,4 @@
-public class SpanishGreeting  implements HelloWorld {
+public class SpanishGreeting {
     String name = "mundo";
     public void greet() {
         greetSomeone("mundo");
